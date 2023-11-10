@@ -1,5 +1,22 @@
-windowBg: #17212b; // white: fallback for background
-windowFg: #f5f5f5; // black: fallback for text
+// === INFO === //
+// todo: FIX ERROR WITH THIS SECTION
+// name: Botanico Theme;
+// shortname: btnic_thm;
+// dark: true;
+
+// === PALETE === //
+black: #212121;
+coffee: #6F4E37;
+wood: #463013;
+green0: #426446;
+green1: #6B8D64;
+green2: #889F78;
+cream: #DAD7CD;
+text:  #fcf9f5;
+
+// === THEME === //
+windowBg: black; // white: fallback for background
+windowFg: text; // black: fallback for text
 windowBgOver: #232e3c; // light gray: fallback for background with mouse over
 windowBgRipple: #24303d; // darker gray: fallback for ripple effect
 windowFgOver: #e9ecf0; // black: fallback for text with mouse over
@@ -189,7 +206,7 @@ stickerPreviewBg: #000000b0; // sticker and GIF preview background (when you pre
 historyTextInFg: windowFg; // inbox message text
 historyTextInFgSelected: #ffffff; // inbox message selected text or text in a selected message
 historyTextOutFg: #ffffff; // outbox message text
-historyTextOutFgSelected: #ffffff; // outbox message selected text or text in a selected message
+historyTextOutFgSelected: wood; // outbox message selected text or text in a selected message
 historyLinkInFg: #70baf5; // inbox message link
 historyLinkInFgSelected: #aadcff; // inbox message link in a selected text or message
 historyLinkOutFg: #ffffff; // outbox message link
@@ -255,8 +272,8 @@ historyPeer8UserpicBg2: #f68136; // the second orange userpic background
 historyPeerSavedMessagesBg2: historyPeer4UserpicBg2; // the second saved messages userpic background
 msgInBg: #24292e; // inbox message background
 msgInBgSelected: #2e70a5; // inbox selected message background (and background of selected text in those messages)
-msgOutBg: #265e8c; // outbox message background
-msgOutBgSelected: #387aad; // outbox selected message background (and background of selected text in those messages)
+msgOutBg: green0; // outbox message background
+msgOutBgSelected: cream; // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #3585d44c; // overlay which is filling the media parts of selected messages (like in selected photo message)
 msgStickerOverlay: #3585d47f; // overlay which is filling the selected sticker message
 msgInServiceFg: #71bafa; // inbox message information text (like information about a forwarded message original sender)
@@ -269,7 +286,7 @@ msgOutShadow: #00000000; // outbox message shadow (below the bubble)
 msgOutShadowSelected: #366ea600; // outbox selected message shadow (below the bubble)
 msgInDateFg: #7a858f; // inbox message time text
 msgInDateFgSelected: #ffffff85; // inbox selected message time text
-msgOutDateFg: #c2e4ffad; // outbox message time text
+msgOutDateFg: green2; // outbox message time text
 msgOutDateFgSelected: #c2e4ffad; // outbox selected message time text
 msgServiceFg: windowFgActive; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: #1e2429d5; // service message background (like in a service message about group title being changed) (adjusted)
